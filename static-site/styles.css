@@ -1,0 +1,49 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+}
+
+header {
+    background-color: #edcce1;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f6d1ec;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+   color: white;
+   padding: 14px 20px;
+   text-decoration: none;
+}
+
+.container {
+   display: flex;
+}
+
+.sidebar {
+   width: 25%;
+   padding: 10px;
+   background-color: #f4f4f4;
+}
+
+.content {
+   width: 75%;
+   padding: 10px;
+}
+
+footer {
+   background-color: #acacac;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
